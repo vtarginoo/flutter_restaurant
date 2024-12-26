@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:panucci_ristorante/screens/checkout.dart';
 import 'package:panucci_ristorante/screens/home.dart';
 
 void main() {
@@ -14,6 +15,7 @@ const PanucciRistorante({ Key? key }) : super(key: key);
       title: "Panucci Ristorante",
       theme: ThemeData(colorSchemeSeed: Colors.purple, useMaterial3: true),
       home: const Home()
+        // const Checkout(),
     );
   }
 }
